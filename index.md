@@ -1,5 +1,5 @@
 ## FM21 Momba Tutorial
-
+A tutorial co-located with FM21 organized by Holger Hermanns and Maximilian Köhl.
 
 [Momba](https://momba.dev) is a Python framework for working with quantitative models centered around the [JANI model interchange format](https://jani-spec.org).
 
@@ -23,3 +23,28 @@ The hands-on experience will be based on the example of a jump'n'run game where 
 The actions of the player are subject to probabilistic noise, \ie, not every action has an effect and the player may continue moving straight instead of moving up or down.
 The participants will construct a formal model based on a map of the game, write an interactive simulation and visualization based on the model using Momba's explicit state space exploration engine, and analyze the model with [The Modest Toolset](https://modestchecker.org) and [Storm](https://www.stormchecker.org/).
 We provide the participants with a project skeleton for the example.
+
+
+### Preliminary Agenda
+
+- **9:00--09:45**: The tutorial starts with a talk introducing quantitative modelling with Momba where we aim to answer the following questions:
+    - What are *quantitative models*?
+    - What is the JANI model interchange format?
+    - What features does Momba offer for quantitative modeling?
+    - What use cases is Momba suited for?
+  We will demonstrate the core features of Momba using the Racetrack benchmark and give a glimpse on the APIs Momba provides for model construction, exploration, and analysis.
+  We then introduce the example the tutorial will be based upon.
+  The idea is that the participants go through the whole process from model construction to analysis using this example.
+  We show what the participants can expect and what the final result will look like.
+- **09:45--10:00**: A short interactive talk explaining the project setup and which tools we recommend using for working with Python in an academic setting.
+  This talk covers best practices for reproducibility and collaboration concerning the usage of Python within the academic community.
+  The participants can ask questions and we make sure that everyone has a working setup for the remainder of the tutorial.
+- **10:00--10:30**: Coffee Break
+- **10:30--11:25**: Hands-on session on model construction.
+  We demonstrate how to construct an automaton using Momba and then task the participants with the construction of a formal model for the example.
+- **11:25--12:00**: Hands-on session on model exploration.
+  We demonstrate how to use Momba's explicit state space exploration engine and then task the participants with building a tool for interactive model exploration and visualization which allows playing the game on the console.
+- **12:00--12:30**: Hands-on session on model analysis.
+  The participants will take their model and analyze it using the state-of-the-art tools The Modest Toolset and Storm vie the APIs Momba provides.
+
+
