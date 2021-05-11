@@ -1,5 +1,5 @@
 ## FM21 Momba Tutorial
-A tutorial co-located with FM21 organized by Holger Hermanns and Maximilian Köhl.
+A tutorial co-located with [FM21](http://lcs.ios.ac.cn/fm2021/) organized by [Holger Hermanns](https://depend.cs.uni-saarland.de/~hermanns/) and [Maximilian Köhl](https://depend.cs.uni-saarland.de/~koehl/).
 
 [Momba](https://momba.dev) is a Python framework for working with quantitative models centered around the [JANI model interchange format](https://jani-spec.org).
 
