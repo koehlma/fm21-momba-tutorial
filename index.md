@@ -28,10 +28,12 @@ We provide the participants with a project skeleton for the example.
 ### Preliminary Agenda
 
 - **9:00--09:45**: The tutorial starts with a talk introducing quantitative modelling with Momba where we aim to answer the following questions:
+
     - What are *quantitative models*?
     - What is the JANI model interchange format?
     - What features does Momba offer for quantitative modeling?
     - What use cases is Momba suited for?
+    
   We will demonstrate the core features of Momba using the Racetrack benchmark and give a glimpse on the APIs Momba provides for model construction, exploration, and analysis.
   We then introduce the example the tutorial will be based upon.
   The idea is that the participants go through the whole process from model construction to analysis using this example.
